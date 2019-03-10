@@ -1,5 +1,3 @@
-# Comments and blank lines are allowed.
-
 RCS
 .+,v
 
@@ -13,6 +11,9 @@ _darcs
 
 \.git
 \.gitignore
+\.gitattributes
+\.gitconfig
+\.mailmap
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
@@ -20,3 +21,12 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+
+\.dockerignore
+Dockerfile.*
+docker-compose.*
+
+\.editorconfig
+
+\.gitlab-ci.yml
+\.travis.yml
